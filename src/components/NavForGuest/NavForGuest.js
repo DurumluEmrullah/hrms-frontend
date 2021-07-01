@@ -1,7 +1,9 @@
 import React from "react";
+import "./NavForGuest.css"
+
 
 import {
-  Button,
+
   Dropdown,
   Menu,
   Container,
@@ -12,10 +14,10 @@ import {
 export default function NavForGuest() {
   return (
     <div>
-      <Menu size="large" className="p-3" fixed="top">
+      <Menu size="large" className="p-3">
         <Container>
           <Menu.Item>
-            <Header as="h2">Cariyer.Net</Header>
+            <Header as="h2"><div className="logo"> Cariyer.Net</div></Header>
           </Menu.Item>
           <Menu.Item>
             İş ara <Icon className="ml-2" name="search" size="large" />
@@ -38,7 +40,9 @@ export default function NavForGuest() {
             </Dropdown>
           </Menu.Menu>
         </Container>
+       
       </Menu>
+
     </div>
   );
 }
