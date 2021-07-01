@@ -17,4 +17,6 @@ You will also see any lint errors in the console.
 ## UML Component Diagram
 ![alt text](https://github.com/DurumluEmrullah/hrms-frontend/blob/master/img/Blank%20diagram.jpeg)
 
+# Screens
+
 
