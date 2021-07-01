@@ -19,4 +19,5 @@ You will also see any lint errors in the console.
 
 # Screens
 
-
+## Main Page For Guests
+![alt text](https://github.com/DurumluEmrullah/hrms-frontend/blob/master/img/Guest.png)
